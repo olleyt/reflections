@@ -10,10 +10,20 @@ What value do you think it offers?
 How can you use the staging area to make sure you have one commit per logical
 change?
 
+- I can add only files that were modified per one logical change in the staging area
+- then use git commit for commiting the change
+
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
+- Branches can help when working on experimental features, client customizaton, anothe langauge version
+- labels help keep branches organised as keeping the purpose of each branch clear
+- context switching
+- bug fixing in a specific branch
+- they allow to collaborate publicly 
 
 How do the diagrams help you visualize the branch structure?
+- diagrams show which changes are related to which branch
+- I can safely check out my team member branch and test it before merging it to master
 
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
